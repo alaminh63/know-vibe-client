@@ -1,0 +1,321 @@
+[
+  {
+    "title": "Web Development Fundamentals",
+    "image": "https://ares.decipherzone.com/blog-manager/uploads/banner_webp_bea99db8-7dba-41e7-941c-de4b61cc1650.webp",
+    "description": "This course provides a comprehensive understanding of web development basics, covering HTML, CSS, and JavaScript.",
+    "level": "Beginner",
+    "rating": 4.5,
+    "total_lessons": 24,
+    "duration": "8 week",
+    "syllabus": [
+      {
+        "module": "HTML Basics",
+        "lessons": [
+          "Introduction to HTML",
+          "HTML Elements and Tags",
+          "HTML Forms and Input",
+          "HTML Semantics and Accessibility"
+        ]
+      },
+      {
+        "module": "CSS Fundamentals",
+        "lessons": [
+          "Introduction to CSS",
+          "CSS Selectors and Properties",
+          "Box Model and Layouts in CSS",
+          "Responsive Design with CSS Media Queries"
+        ]
+      },
+      {
+        "module": "JavaScript Essentials",
+        "lessons": [
+          "Introduction to JavaScript",
+          "Variables, Data Types, and Operators",
+          "Functions and Control Structures in JavaScript",
+          "DOM Manipulation and Events Handling"
+        ]
+      },
+      {
+        "module": "Advanced HTML",
+        "lessons": [
+          "HTML5 Semantic Elements",
+          "Canvas and SVG in HTML",
+          "Web Storage and Offline Applications",
+          "Introduction to Web Components"
+        ]
+      },
+      {
+        "module": "CSS3 Techniques",
+        "lessons": [
+          "Advanced CSS Layouts",
+          "Transitions and Animations in CSS",
+          "CSS Preprocessors (Sass/Less)",
+          "CSS Grid and Flexbox"
+        ]
+      },
+      {
+        "module": "Intermediate JavaScript",
+        "lessons": [
+          "ES6 and Modern JavaScript Features",
+          "Asynchronous JavaScript (Promises, Async/Await)",
+          "JavaScript Frameworks Overview",
+          "API Fetching and AJAX in JavaScript"
+        ]
+      }
+    ],
+    "instructor": {
+      "email": "john@example.com"
+    },
+    "whatWillILearn": [
+      "Master visual communication basics.",
+      "Proficient in vector graphics editing.",
+      "Enhance images using Photoshop.",
+      "Design professional print layouts.",
+      "Gain typography expertise.",
+      "Create consistent branding elements.",
+      "Design effective print materials.",
+      "Understand web design principles."
+    ],
+    "reviews": [
+      {
+        "username": "User123",
+        "rating": 4.5,
+        "comment": "Great course, very informative!"
+      },
+      {
+        "username": "TechieGirl",
+        "rating": 5,
+        "comment": "Excellent content and well-structured modules."
+      }
+    ]
+  },
+  {
+    "title": "WordPress Theme Development",
+    "image": "https://cdn.wpengine.com/wpbeginner.com/wp-content/uploads/2022/12/wordpress-theme-development-logo-750x375.jpg",
+    "description": "Master the art of WordPress theme development and create stunning, custom themes for your clients or personal projects.",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "total_lessons": 30,
+    "duration": "10 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to WordPress Themes",
+        "lessons": [
+          "WordPress Theme Structure and Files",
+          "Understanding Theme Templates and Hierarchies",
+          "Theming Basics: Customizing Styles, Colors, and Layouts"
+        ]
+      },
+      {
+        "module": "Theme Development Tools and Techniques",
+        "lessons": [
+          "Setting Up a Local Development Environment",
+          "Using Theme Frameworks and Starter Themes",
+          "WordPress Theme Customization Plugins and Tools"
+        ]
+      },
+      {
+        "module": "Advanced Theme Design and Development",
+        "lessons": [
+          "Creating Child Themes and Overriding Templates",
+          "Implementing Custom Functions and Plugins",
+          "Optimizing Themes for Performance and Accessibility"
+        ]
+      },
+      {
+        "module": "WordPress Theme Customization and Integration",
+        "lessons": [
+          "Customizing Theme Widgets and Menus",
+          "Integrating Theme with Plugins and APIs",
+          "Deploying and Maintaining WordPress Themes"
+        ]
+      },
+      {
+        "module": "Real-World WordPress Theme Development Projects",
+        "lessons": [
+          "Building a Simple Business Theme",
+          "Creating a Blog-Focused Theme",
+          "Developing an eCommerce Theme with WooCommerce"
+        ]
+      }
+    ],
+    "instructor": {
+      "email": "jane@example.com"
+    },
+    "whatWillILearn": [
+      "Master visual communication basics.",
+      "Proficient in vector graphics editing.",
+      "Enhance images using Photoshop.",
+      "Design professional print layouts.",
+      "Gain typography expertise.",
+      "Create consistent branding elements.",
+      "Design effective print materials.",
+      "Understand web design principles."
+    ],
+    "reviews": [
+      {
+        "username": "DevExpert",
+        "rating": 5,
+        "comment": "This course is a must for anyone who wants to create professional WordPress themes."
+      },
+      {
+        "username": "WPNewbie",
+        "rating": 4,
+        "comment": "Great course for learning the basics of WordPress theme development, with practical projects to apply the concepts."
+      }
+    ]
+  },
+  {
+    "title": "Flutter Cross-Platform App Development",
+    "image": "https://flutter.dev/img/logo/flutter-logo-medium.png",
+    "description": "Learn to build beautiful, native mobile apps with Flutter, Google's open-source framework for cross-platform development.",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "total_lessons": 36,
+    "duration": "12 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to Flutter",
+        "lessons": [
+          "Setting Up the Flutter Development Environment",
+          "Understanding Dart Programming Language Fundamentals",
+          "Exploring the Flutter Widget Toolkit and Widget Tree"
+        ]
+      },
+      {
+        "module": "Building Basic Flutter Apps",
+        "lessons": [
+          "Creating a Simple Flutter Application with State Management",
+          "Implementing User Interfaces with Flutter Widgets and UI Components",
+          "Handling User Interactions and Events in Flutter Apps"
+        ]
+      },
+      {
+        "module": "Advanced Flutter App Development",
+        "lessons": [
+          "Navigating Between App Screens and Managing App State",
+          "Consuming APIs and Networking with Flutter",
+          "Building Custom Widgets and State Management Techniques"
+        ]
+      },
+      {
+        "module": "Flutter App Design and Deployment",
+        "lessons": [
+          "Designing User Interfaces with Flutter's Layouts and Themes",
+          "Optimizing Flutter Apps for Performance and Accessibility",
+          "Deploying Flutter Apps to iOS and Android Platforms"
+        ]
+      },
+      {
+        "module": "Real-World Flutter App Development Projects",
+        "lessons": [
+          "Building a Simple To-Do List App",
+          "Creating a Chat Application with Firebase Integration",
+          "Developing an E-commerce App with Flutter and Provider"
+        ]
+      }
+    ],
+    "instructor": {
+      "email": "peter@example.com"
+    },
+    "whatWillILearn": [
+      "Master visual communication basics.",
+      "Proficient in vector graphics editing.",
+      "Enhance images using Photoshop.",
+      "Design professional print layouts.",
+      "Gain typography expertise.",
+      "Create consistent branding elements.",
+      "Design effective print materials.",
+      "Understand web design principles."
+    ],
+    "reviews": [
+      {
+        "username": "FlutterDev",
+        "rating": 5,
+        "comment": "This course is an excellent introduction to Flutter app development, covering everything from the basics to advanced concepts."
+      },
+      {
+        "username": "FlutterLearner",
+        "rating": 4.5,
+        "comment": "The course provides valuable hands-on experience with Flutter, allowing you to build real-world apps immediately."
+      }
+    ]
+  },
+  {
+    "title": "Graphics Design Fundamentals",
+    "image": "https://i.ytimg.com/vi/8V5-J6yJ94w/maxresdefault.jpg",
+    "description": "Discover the principles and techniques of graphic design to create visually appealing and effective communication materials.",
+    "level": "Beginner",
+    "rating": 4.9,
+    "total_lessons": 20,
+    "duration": "6 weeks",
+    "syllabus": [
+      {
+        "module": "Elements of Design",
+        "lessons": [
+          "Understanding the Fundamentals of Visual Communication",
+          "Exploring the Principles of Design: Point, Line, Shape, Form, Color, Texture, Space",
+          "Applying Design Principles to Create Effective Visual Compositions"
+        ]
+      },
+      {
+        "module": "Design Tools and Software",
+        "lessons": [
+          "Introducing Essential Graphics Design Software: Adobe Photoshop, Illustrator, and InDesign",
+          "Learning the Basics of Vector Graphics Editing with Adobe Illustrator",
+          "Exploring Photo Editing and Manipulation Techniques in Adobe Photoshop",
+          "Creating Layouts and Publications with Adobe InDesign"
+        ]
+      },
+      {
+        "module": "Design Typography",
+        "lessons": [
+          "Understanding the Importance of Typography in Graphic Design",
+          "Exploring Typographic Elements: Typeface Selection, Font Usage, Hierarchy, Readability",
+          "Applying Typography to Create Effective Visual Communication"
+        ]
+      },
+      {
+        "module": "Design Principles in Practice",
+        "lessons": [
+          "Creating Logos and Branding Elements",
+          "Designing Brochures, Flyers, and Print Materials",
+          "Developing Web Design Concepts and User Interfaces"
+        ]
+      },
+      {
+        "module": "Professional Practices and Ethics",
+        "lessons": [
+          "Understanding Copyright and Intellectual Property in Design",
+          "Exploring Design Ethics and Social Responsibility",
+          "Preparing for a Career in Graphic Design: Portfolio Building, Networking, and Job Search Strategies"
+        ]
+      }
+    ],
+    "instructor": {
+      "email": "alice@example.com"
+    },
+    "whatWillILearn": [
+      "Master visual communication basics.",
+      "Proficient in vector graphics editing.",
+      "Enhance images using Photoshop.",
+      "Design professional print layouts.",
+      "Gain typography expertise.",
+      "Create consistent branding elements.",
+      "Design effective print materials.",
+      "Understand web design principles."
+    ],
+    "reviews": [
+      {
+        "username": "DesignEnthusiast",
+        "rating": 5,
+        "comment": "This course provides a comprehensive introduction to graphic design, covering the essential principles and tools."
+      },
+      {
+        "username": "DesignAspirant",
+        "rating": 4.5,
+        "comment": "The course is well-structured and easy to follow, with practical exercises to apply the concepts learned."
+      }
+    ]
+  }
+]

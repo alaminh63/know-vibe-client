@@ -10,7 +10,7 @@ const HeroSection = () => {
   const slider = [
     {
       id: 1,
-      image: "./banner3.jpg",
+      image: "https://www.ineteconomics.org/uploads/featured/iStock-1171902434.jpg",
       title: "Explore the World",
       heading: "Gateway to Adventure",
       subheading:
@@ -18,7 +18,7 @@ const HeroSection = () => {
     },
     {
       id: 2,
-      image: "./banner2.jpg",
+      image: "https://www.ineteconomics.org/uploads/featured/iStock-1171902434.jpg",
       title: "Dream Vacations",
       heading: "Escape to Paradise",
       subheading:
@@ -26,7 +26,7 @@ const HeroSection = () => {
     },
     {
       id: 3,
-      image: "./banner1.jpg",
+      image: "https://www.ineteconomics.org/uploads/featured/iStock-1171902434.jpg",
       title: "Adventure Awaits",
       heading: "Embrace the Journey",
       subheading: "Embark on thrilling adventures and make every moment count.Indulge in luxury and relaxation with our curated travel experiences.",

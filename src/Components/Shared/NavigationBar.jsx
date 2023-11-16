@@ -9,7 +9,7 @@ import { AuthContext } from "../../Contexts/AuthProvider";
 const NavigationBar = () => {
   const nav = [
     { id: 1, name: "Home", url: "/" },
-    { id: 2, name: "Destination", url: "/destination" },
+    { id: 2, name: "Courses", url: "/courses" },
     { id: 3, name: "About", url: "/about" },
     { id: 4, name: "Contact", url: "/contact" },
   ];

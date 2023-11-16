@@ -1,0 +1,8 @@
+{
+  "instructor": {
+    "name": "Jane Smith",
+    "email" : "example@gmail.com",
+    "bio": "Jane Smith is a passionate educator and software developer...",
+    "photo": "https//:example.com"
+  }
+}
