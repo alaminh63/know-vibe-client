@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import { FaBars, FaUser } from "react-icons/fa";
-import { FaXmark } from "react-icons/fa6";
+import { FaUser } from "react-icons/fa";
+
 import { useContext, useState } from "react";
 
 import ProfileDropDown from "../ProfileDropDown/ProfileDropDown";
@@ -66,24 +66,7 @@ const NavigationBar = () => {
         )}
       </ul>
 
-      {/* Login - Register */}
-      <div className="pr-5">
-        {user?.email ? (
-          <div className="hidden md:block">
-            <ProfileDropDown />
-          </div>
-        ) : (
-          <Link to={"/login"}>
-            <button className="hidden md:flex items-center justify-center gap-1 font-semibold text-[#6C7171]">
-              <FaUser />
-              Login/Signup
-            </button>
-          </Link>
-        )}
-        <button className="md:hidden" onClick={() => setOpen(!open)}>
-          {open ? <FaXmark /> : <FaBars />}
-        </button>
-      </div>
+     
     </header>
   );
 };

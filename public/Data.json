@@ -5,6 +5,7 @@
     "description": "This course provides a comprehensive understanding of web development basics, covering HTML, CSS, and JavaScript.",
     "level": "Beginner",
     "rating": 4.5,
+    "category": "web_dev",
     "total_lessons": 24,
     "duration": "8 weeks",
     "syllabus": [
@@ -97,6 +98,8 @@
       }
     ],
     "instructor": {
+      "instructor_name": "John Cena",
+     
       "email": "john@example.com"
     },
     "whatWillILearn": [

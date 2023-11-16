@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import { useEffect, useState } from "react";
-import { FaCheckCircle, FaCircle, FaStar } from "react-icons/fa";
+import { FaCheckCircle, FaCircle, FaStar, FaUserAlt } from "react-icons/fa";
 import { useParams } from "react-router-dom";
+import Swal from "sweetalert2";
 import { AuthContext } from "../../Contexts/AuthProvider";
 
 const CourseDetails = () => {
@@ -9,6 +10,7 @@ const CourseDetails = () => {
   const { user } = useContext(AuthContext);
   const [data, setData] = useState({});
   const {
+    _id,
     title,
     image,
     description,
@@ -36,6 +38,81 @@ const CourseDetails = () => {
 
     fetchData();
   }, []);
+
+  const handleEnroll = () => {
+    const requestBody = {
+      _id: _id, // Send the _id from the singleTournament
+    };
+
+    fetch(`http://localhost:3000/enrollCourses/${user.email}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody), // Send the request body as JSON
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.modifiedCount) {
+          Swal.fire({
+            title: "Enrolled Course Successfull",
+            icon: "success",
+            color: "#FFFFFF",
+            background:
+              " linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.66078) 100%)",
+
+            confirmButtonColor: "cool",
+            confirmButtonText: "OK",
+          });
+        } else {
+          Swal.fire({
+            title: "Already Enrolled",
+            icon: "error",
+            color: "#FFFFFF",
+            background:
+              " linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.66078) 100%)",
+
+            confirmButtonColor: "cool",
+            confirmButtonText: "OK",
+          });
+        }
+      });
+  };
+  const handleBookmark = (_id) => {
+    const requestBody = {
+      _id: _id, // Send the _id from the singleTournament
+    };
+
+    fetch(`http://localhost:3000/bookmarkedCourse/${user.email}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(requestBody), // Send the request body as JSON
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.modifiedCount) {
+          Swal.fire({
+            title: " Course Bookmark Successfull",
+            icon: "success",
+            color: "#FFFFFF",
+            background:
+              " linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.66078) 100%)",
+
+            confirmButtonColor: "cool",
+            confirmButtonText: "OK",
+          });
+        } else {
+          Swal.fire({
+            title: "Already Already Bookmarked",
+            icon: "error",
+            color: "#FFFFFF",
+            background:
+              " linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.66078) 100%)",
+
+            confirmButtonColor: "cool",
+            confirmButtonText: "OK",
+          });
+        }
+      });
+  };
   return (
     <div className="">
       <div>
@@ -120,6 +197,40 @@ const CourseDetails = () => {
               ))}
             </div>
           </div>
+          <div className="grid grid-cols-2 gap-2">
+            {reviews?.map((item, i) => (
+              <div key={i + 1}>
+                <div className="container flex flex-col w-full mt-10 p-6 mx-auto divide-y rounded-md dark:divide-gray-700 dark:bg-gray-900 dark:text-gray-100">
+                  <div className="flex justify-between p-4">
+                    <div className="flex items-center space-x-4">
+                      <div>
+                        <FaUserAlt className="w-6 h-6 " />
+                      </div>
+                      <div>
+                        <h4 className="font-bold">{item?.username}</h4>
+                        <span className="text-xs dark:text-gray-400">
+                          2 days ago
+                        </span>
+                      </div>
+                    </div>
+                    <div className="flex items-center space-x-2 dark:text-yellow-500">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        className="w-5 h-5 fill-current"
+                      >
+                        <path d="M494,198.671a40.536,40.536,0,0,0-32.174-27.592L345.917,152.242,292.185,47.828a40.7,40.7,0,0,0-72.37,0L166.083,152.242,50.176,171.079a40.7,40.7,0,0,0-22.364,68.827l82.7,83.368-17.9,116.055a40.672,40.672,0,0,0,58.548,42.538L256,428.977l104.843,52.89a40.69,40.69,0,0,0,58.548-42.538l-17.9-116.055,82.7-83.368A40.538,40.538,0,0,0,494,198.671Zm-32.53,18.7L367.4,312.2l20.364,132.01a8.671,8.671,0,0,1-12.509,9.088L256,393.136,136.744,453.3a8.671,8.671,0,0,1-12.509-9.088L144.6,312.2,50.531,217.37a8.7,8.7,0,0,1,4.778-14.706L187.15,181.238,248.269,62.471a8.694,8.694,0,0,1,15.462,0L324.85,181.238l131.841,21.426A8.7,8.7,0,0,1,461.469,217.37Z"></path>
+                      </svg>
+                      <span className="text-xl font-bold">{item?.rating}</span>
+                    </div>
+                  </div>
+                  <div className="p-4 space-y-2 text-sm dark:text-gray-400">
+                    <p>{item?.comment}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
         <div className="w-[25%]  border-green-500">
           <div className="shadow-2xl sticky top-14">
@@ -130,14 +241,25 @@ const CourseDetails = () => {
               </div>
             </div>
             <div className=" flex px-4 font-semibold flex-col gap-2">
-              <p className=" text-center text-xl font-bold">This Course Includes</p>
+              <p className=" text-center text-xl font-bold">
+                This Course Includes
+              </p>
               <p className=" border py-1">Course Level : {level}</p>
               <p className=" border py-1">Duration : {duration}</p>
               <p className=" border py-1">Lession : {total_lessons}</p>
               <p className=" border py-1">Total Reviews : {reviews?.length}</p>
             </div>
-            <button className="bg-[#FF5522] font-bold mt-2 py-3 text-white w-full">
+            <button
+              onClick={handleEnroll}
+              className=" bg-[#33ab31]  font-bold mt-2 py-3 text-white w-full"
+            >
               Enroll Now
+            </button>
+            <button
+              onClick={handleBookmark}
+              className="bg-[#FF5522] font-bold mt-2 py-3 text-white w-full"
+            >
+              Bookmark Now
             </button>
           </div>
         </div>
