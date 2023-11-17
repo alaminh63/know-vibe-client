@@ -3,8 +3,10 @@ import Dashboard from "../Layout/Dashboard";
 import Root from "../Layout/Root";
 import Login from "../pages/Authentication/Login/Login";
 import Registration from "../pages/Authentication/Registration/Registration";
+import Contact from "../pages/Contact/Contact";
 import CourseDetails from "../pages/CourseDetails/CourseDetails";
 import Courses from "../pages/Courses/Courses";
+import AddClass from "../pages/Dashboard/Instractors/AddClass";
 import BookmarkedCourses from "../pages/Dashboard/Student/BookmarkedCourses/BookmarkedCourses";
 import EndrolledCourses from "../pages/Dashboard/Student/EndrolledCourses/EndrolledCourses";
 import Student from "../pages/Dashboard/Student/Student";
@@ -40,6 +42,10 @@ const router = createBrowserRouter([
         path: "/instructors",
         element: <Instructors />,
       },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
     ],
   },
   {
@@ -57,6 +63,10 @@ const router = createBrowserRouter([
       {
         path: "bookmarkedCourse",
         element: <BookmarkedCourses />,
+      },
+      {
+        path: "addClass",
+        element: <AddClass />,
       },
     ],
   },

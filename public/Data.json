@@ -5,6 +5,7 @@
     "description": "This course provides a comprehensive understanding of web development basics, covering HTML, CSS, and JavaScript.",
     "level": "Beginner",
     "rating": 4.5,
+    
     "category": "web_dev",
     "total_lessons": 24,
     "duration": "8 weeks",
@@ -100,7 +101,7 @@
     "instructor": {
       "instructor_name": "John Cena",
 
-      "email": "john@example.com"
+      "instructor_email": "john@example.com"
     },
     "whatWillILearn": [
       "Master visual communication basics.",
@@ -140,7 +141,10 @@
         "duration": "1 week",
         "lessons": [
           { "title": "Understanding Design Principles", "duration": "2 days" },
-          { "title": "Visual Communication Fundamentals", "duration": "3 days" },
+          {
+            "title": "Visual Communication Fundamentals",
+            "duration": "3 days"
+          },
           { "title": "Exploring Graphic Design Tools", "duration": "2 days" }
         ]
       },
@@ -157,7 +161,10 @@
         "module": "Image Editing with Photoshop",
         "duration": "2 weeks",
         "lessons": [
-          { "title": "Understanding Photoshop Interface", "duration": "3 days" },
+          {
+            "title": "Understanding Photoshop Interface",
+            "duration": "3 days"
+          },
           { "title": "Image Enhancement Techniques", "duration": "4 days" },
           { "title": "Photoshop for Design Projects", "duration": "4 days" }
         ]
@@ -167,7 +174,10 @@
         "duration": "2 weeks",
         "lessons": [
           { "title": "Typography and Layout Basics", "duration": "3 days" },
-          { "title": "Creating Professional Print Designs", "duration": "4 days" },
+          {
+            "title": "Creating Professional Print Designs",
+            "duration": "4 days"
+          },
           { "title": "Branding Elements and Consistency", "duration": "4 days" }
         ]
       },
@@ -175,8 +185,14 @@
         "module": "Advanced Graphic Design Techniques",
         "duration": "2 weeks",
         "lessons": [
-          { "title": "Designing Effective Print Materials", "duration": "3 days" },
-          { "title": "Web Design Principles for Graphic Designers", "duration": "4 days" },
+          {
+            "title": "Designing Effective Print Materials",
+            "duration": "3 days"
+          },
+          {
+            "title": "Web Design Principles for Graphic Designers",
+            "duration": "4 days"
+          },
           { "title": "Creating Impactful Designs", "duration": "4 days" }
         ]
       },
@@ -184,14 +200,20 @@
         "module": "Professional Development in Design",
         "duration": "1 week",
         "lessons": [
-          { "title": "Client Communication and Presentation Skills", "duration": "3 days" },
-          { "title": "Portfolio Building and Self-Branding", "duration": "4 days" }
+          {
+            "title": "Client Communication and Presentation Skills",
+            "duration": "3 days"
+          },
+          {
+            "title": "Portfolio Building and Self-Branding",
+            "duration": "4 days"
+          }
         ]
       }
     ],
     "instructor": {
       "instructor_name": "Emily Smith",
-      "email": "emily@example.com"
+      "instructor_email": "emily@example.com"
     },
     "whatWillILearn": [
       "Master visual communication basics.",
@@ -230,8 +252,14 @@
         "module": "Introduction to Video Editing",
         "duration": "1 week",
         "lessons": [
-          { "title": "Understanding Video Editing Basics", "duration": "2 days" },
-          { "title": "Introduction to Video Editing Software", "duration": "3 days" },
+          {
+            "title": "Understanding Video Editing Basics",
+            "duration": "2 days"
+          },
+          {
+            "title": "Introduction to Video Editing Software",
+            "duration": "3 days"
+          },
           { "title": "Overview of Editing Techniques", "duration": "2 days" }
         ]
       },
@@ -240,8 +268,14 @@
         "duration": "2 weeks",
         "lessons": [
           { "title": "Mastering Premiere Pro Basics", "duration": "4 days" },
-          { "title": "Advanced Editing Techniques in Premiere Pro", "duration": "5 days" },
-          { "title": "Exploring After Effects for Video Enhancements", "duration": "5 days" }
+          {
+            "title": "Advanced Editing Techniques in Premiere Pro",
+            "duration": "5 days"
+          },
+          {
+            "title": "Exploring After Effects for Video Enhancements",
+            "duration": "5 days"
+          }
         ]
       },
       {
@@ -249,8 +283,14 @@
         "duration": "2 weeks",
         "lessons": [
           { "title": "Audio Editing and Mixing", "duration": "4 days" },
-          { "title": "Adding Visual Effects and Motion Graphics", "duration": "5 days" },
-          { "title": "Color Correction and Grading Techniques", "duration": "5 days" }
+          {
+            "title": "Adding Visual Effects and Motion Graphics",
+            "duration": "5 days"
+          },
+          {
+            "title": "Color Correction and Grading Techniques",
+            "duration": "5 days"
+          }
         ]
       },
       {
@@ -258,7 +298,10 @@
         "duration": "2 weeks",
         "lessons": [
           { "title": "Advanced Transitions and Effects", "duration": "4 days" },
-          { "title": "Creative Editing Styles and Approaches", "duration": "5 days" },
+          {
+            "title": "Creative Editing Styles and Approaches",
+            "duration": "5 days"
+          },
           { "title": "Multi-camera Editing and Syncing", "duration": "5 days" }
         ]
       },
@@ -266,14 +309,17 @@
         "module": "Professional Workflow and Delivery",
         "duration": "1 week",
         "lessons": [
-          { "title": "Project Management and Organization", "duration": "3 days" },
+          {
+            "title": "Project Management and Organization",
+            "duration": "3 days"
+          },
           { "title": "Exporting and Delivery Standards", "duration": "4 days" }
         ]
       }
     ],
     "instructor": {
       "instructor_name": "Alex Johnson",
-      "email": "alex@example.com"
+      "instructor_email": "alex@example.com"
     },
     "whatWillILearn": [
       "Master video editing basics.",
@@ -294,6 +340,332 @@
         "username": "VideoPro456",
         "rating": 4.9,
         "comment": "Instructor's insights were invaluable. Highly recommend!"
+      }
+    ]
+  },
+  {
+    "title": "Digital Marketing Fundamentals",
+    "image": "https://example.com/digital_marketing_banner.jpg",
+    "description": "This course provides a comprehensive understanding of digital marketing strategies, tools, and techniques used in the industry.",
+    "level": "Beginner",
+    "rating": 4.8,
+    "category": "digital_marketing",
+    "total_lessons": 28,
+    "duration": "10 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to Digital Marketing",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "title": "Understanding Digital Marketing Landscape",
+            "duration": "2 days"
+          },
+          {
+            "title": "Overview of Digital Marketing Channels",
+            "duration": "3 days"
+          },
+          { "title": "Setting Marketing Goals and KPIs", "duration": "2 days" }
+        ]
+      },
+      {
+        "module": "Website and SEO Fundamentals",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Website Basics and Optimization", "duration": "4 days" },
+          { "title": "Search Engine Optimization (SEO)", "duration": "5 days" },
+          { "title": "Keyword Research and Analysis", "duration": "5 days" }
+        ]
+      },
+      {
+        "module": "Social Media Marketing",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Creating Engaging Social Media Content",
+            "duration": "4 days"
+          },
+          { "title": "Social Media Advertising", "duration": "5 days" },
+          { "title": "Community Building and Management", "duration": "5 days" }
+        ]
+      },
+      {
+        "module": "instructor_email Marketing and Automation",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Building Effective instructor_email Campaigns",
+            "duration": "4 days"
+          },
+          {
+            "title": "instructor_email Automation and Segmentation",
+            "duration": "5 days"
+          },
+          {
+            "title": "Measuring instructor_email Campaign Performance",
+            "duration": "5 days"
+          }
+        ]
+      },
+      {
+        "module": "Content Marketing Strategies",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Content Creation and Distribution",
+            "duration": "4 days"
+          },
+          {
+            "title": "Understanding Content Marketing ROI",
+            "duration": "5 days"
+          },
+          { "title": "Influencer Marketing Strategies", "duration": "5 days" }
+        ]
+      },
+      {
+        "module": "Analytics and Strategy Optimization",
+        "duration": "1 week",
+        "lessons": [
+          { "title": "Digital Analytics and Metrics", "duration": "3 days" },
+          {
+            "title": "Optimizing Strategies Based on Data",
+            "duration": "4 days"
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "instructor_name": "Sophia Lee",
+      "instructor_email": "sophia@example.com"
+    },
+    "whatWillILearn": [
+      "Understand the fundamentals of digital marketing.",
+      "Optimize websites for better search engine visibility.",
+      "Effectively use social media for marketing purposes.",
+      "Create and manage successful instructor_email marketing campaigns.",
+      "Develop content marketing strategies and understand their ROI.",
+      "Utilize analytics to optimize marketing strategies."
+    ],
+    "reviews": [
+      {
+        "username": "MarketingPro789",
+        "rating": 4.9,
+        "comment": "Insightful course with practical examples. Highly recommend!"
+      },
+      {
+        "username": "DigitalStrategyWizard",
+        "rating": 4.7,
+        "comment": "Great course for beginners in digital marketing. Very informative."
+      }
+    ]
+  },
+  {
+    "title": "Mastering Fiverr Freelancing",
+    "image": "https://example.com/fiverr_course_banner.jpg",
+    "description": "This course equips you with the skills needed to succeed as a freelancer on Fiverr, covering gig creation, client management, and optimizing your profile.",
+    "level": "Intermediate",
+    "rating": 4.6,
+    "category": "freelancing",
+    "total_lessons": 20,
+    "duration": "6 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to Fiverr Freelancing",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "title": "Understanding Fiverr Platform Basics",
+            "duration": "3 days"
+          },
+          { "title": "Exploring Fiverr's Gig Economy", "duration": "4 days" }
+        ]
+      },
+      {
+        "module": "Creating High-Demand Gigs",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Identifying Lucrative Niches on Fiverr",
+            "duration": "4 days"
+          },
+          {
+            "title": "Crafting Compelling Gig Titles and Descriptions",
+            "duration": "5 days"
+          },
+          {
+            "title": "Optimizing Gig Images and Packages",
+            "duration": "5 days"
+          }
+        ]
+      },
+      {
+        "module": "Client Communication and Management",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Effective Communication with Clients",
+            "duration": "4 days"
+          },
+          { "title": "Managing Orders and Deliveries", "duration": "5 days" },
+          {
+            "title": "Handling Client Feedback and Reviews",
+            "duration": "5 days"
+          }
+        ]
+      },
+      {
+        "module": "Optimizing Fiverr Profile and Marketing",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "title": "Profile Optimization for Maximum Visibility",
+            "duration": "4 days"
+          },
+          {
+            "title": "Utilizing Social Media for Gig Promotion",
+            "duration": "3 days"
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "instructor_name": "Mark Freelance",
+      "instructor_email": "mark@example.com"
+    },
+    "whatWillILearn": [
+      "Understand how Fiverr works and its gig economy.",
+      "Create compelling and high-demand gigs.",
+      "Effectively communicate and manage clients.",
+      "Optimize your Fiverr profile for maximum visibility.",
+      "Promote gigs using social media and other channels."
+    ],
+    "reviews": [
+      {
+        "username": "FiverrSuccess2023",
+        "rating": 4.8,
+        "comment": "Great course, practical lessons really improved my gig performance!"
+      },
+      {
+        "username": "FreelanceMaster",
+        "rating": 4.7,
+        "comment": "Insightful guidance for anyone looking to succeed on Fiverr."
+      }
+    ]
+  },
+  {
+    "title": "Mastering Upwork Freelancing",
+    "image": "https://example.com/upwork_course_banner.jpg",
+    "description": "This course provides in-depth insights and strategies for succeeding as a freelancer on Upwork, covering profile optimization, client acquisition, and project management.",
+    "level": "Intermediate",
+    "rating": 4.7,
+    "category": "freelancing",
+    "total_lessons": 22,
+    "duration": "8 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to Upwork",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "title": "Understanding Upwork Platform Basics",
+            "duration": "3 days"
+          },
+          {
+            "title": "Navigating Upwork's Freelance Marketplace",
+            "duration": "4 days"
+          }
+        ]
+      },
+      {
+        "module": "Optimizing Your Upwork Profile",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Creating an Attractive Profile Overview",
+            "duration": "4 days"
+          },
+          {
+            "title": "Showcasing Skills and Portfolio Effectively",
+            "duration": "5 days"
+          },
+          {
+            "title": "Setting Up Your Pricing and Service Packages",
+            "duration": "5 days"
+          }
+        ]
+      },
+      {
+        "module": "Winning Projects and Client Communication",
+        "duration": "3 weeks",
+        "lessons": [
+          {
+            "title": "Crafting Winning Proposals and Cover Letters",
+            "duration": "5 days"
+          },
+          {
+            "title": "Effective Client Communication and Negotiation",
+            "duration": "6 days"
+          },
+          {
+            "title": "Securing Long-term Clients on Upwork",
+            "duration": "6 days"
+          }
+        ]
+      },
+      {
+        "module": "Project Management and Delivery",
+        "duration": "2 weeks",
+        "lessons": [
+          {
+            "title": "Managing Upwork Projects Efficiently",
+            "duration": "4 days"
+          },
+          {
+            "title": "Delivering High-Quality Work and Receiving Feedback",
+            "duration": "5 days"
+          },
+          {
+            "title": "Dealing with Disputes and Ensuring Client Satisfaction",
+            "duration": "5 days"
+          }
+        ]
+      },
+      {
+        "module": "Building Your Upwork Reputation",
+        "duration": "1 week",
+        "lessons": [
+          {
+            "title": "Generating Positive Reviews and Ratings",
+            "duration": "4 days"
+          },
+          {
+            "title": "Growing Your Upwork Presence and Profile Strength",
+            "duration": "3 days"
+          }
+        ]
+      }
+    ],
+    "instructor": {
+      "instructor_name": "Sarah FreelancePro",
+      "instructor_email": "sarah@example.com"
+    },
+    "whatWillILearn": [
+      "Gain a deep understanding of the Upwork platform.",
+      "Optimize your profile to attract clients effectively.",
+      "Write compelling proposals and secure projects.",
+      "Manage projects efficiently and deliver quality work.",
+      "Build a strong reputation and receive positive reviews."
+    ],
+    "reviews": [
+      {
+        "username": "UpworkSuccess2023",
+        "rating": 4.9,
+        "comment": "This course transformed my freelancing career on Upwork!"
+      },
+      {
+        "username": "FreelanceChampion",
+        "rating": 4.8,
+        "comment": "Great insights and practical tips for succeeding on Upwork."
       }
     ]
   }
