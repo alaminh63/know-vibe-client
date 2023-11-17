@@ -261,6 +261,7 @@ const CourseDetails = () => {
             >
               Bookmark Now
             </button>
+          
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ import BookmarkedCourses from "../pages/Dashboard/Student/BookmarkedCourses/Book
 import EndrolledCourses from "../pages/Dashboard/Student/EndrolledCourses/EndrolledCourses";
 import Student from "../pages/Dashboard/Student/Student";
 import Home from "../pages/Home/Home";
+import Instructors from "../pages/Instructor/Instructors";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/courses/:id",
         element: <CourseDetails />,
+      },
+      {
+        path: "/instructors",
+        element: <Instructors />,
       },
     ],
   },

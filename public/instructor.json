@@ -1,8 +1,38 @@
-{
-  "instructor": {
+[
+  {
     "name": "Jane Smith",
-    "email" : "example@gmail.com",
+    "email": "example@gmail.com",
     "bio": "Jane Smith is a passionate educator and software developer...",
-    "photo": "https//:example.com"
+    "photo": "https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads//learn-press-profile/9/a87cce35aa3a4cb374ad14c92334a35e.jpeg"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "example@gmail.com",
+    "bio": "Jane Smith is a passionate educator and software developer...",
+    "photo": "https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads//learn-press-profile/10/418cbee72cafbbf58290b71f9e359260.jpeg"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "example@gmail.com",
+    "bio": "Jane Smith is a passionate educator and software developer...",
+    "photo": "https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads//learn-press-profile/8/8d69d3fc4b9ecc16660fc9e32192e9e1.jpeg"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "example@gmail.com",
+    "bio": "Jane Smith is a passionate educator and software developer...",
+    "photo": "https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads//learn-press-profile/6/dc87ed52efaf1f8df3504ad27ea93859.jpeg"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "example@gmail.com",
+    "bio": "Jane Smith is a passionate educator and software developer...",
+    "photo": "https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads//learn-press-profile/4/5a084ec8c7fddeff9644d1ba46c5eb06.jpeg"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "example@gmail.com",
+    "bio": "Jane Smith is a passionate educator and software developer...",
+    "photo": "https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads//learn-press-profile/5/5a3066a1b8cc8929e0358ea126f44840.jpeg"
   }
-}
+]

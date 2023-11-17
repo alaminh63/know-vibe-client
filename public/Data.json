@@ -99,7 +99,7 @@
     ],
     "instructor": {
       "instructor_name": "John Cena",
-     
+
       "email": "john@example.com"
     },
     "whatWillILearn": [
@@ -122,6 +122,178 @@
         "username": "TechieGirl",
         "rating": 5,
         "comment": "Excellent content and well-structured modules."
+      }
+    ]
+  },
+  {
+    "title": "Graphics Design Fundamentals",
+    "image": "https://example.com/graphics_design_banner.jpg",
+    "description": "This course offers a comprehensive understanding of graphic design basics, covering various tools, techniques, and principles.",
+    "level": "Beginner",
+    "rating": 4.7,
+    "category": "graphics_design",
+    "total_lessons": 30,
+    "duration": "10 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to Graphic Design",
+        "duration": "1 week",
+        "lessons": [
+          { "title": "Understanding Design Principles", "duration": "2 days" },
+          { "title": "Visual Communication Fundamentals", "duration": "3 days" },
+          { "title": "Exploring Graphic Design Tools", "duration": "2 days" }
+        ]
+      },
+      {
+        "module": "Vector Graphics Editing",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Working with Illustrator Basics", "duration": "3 days" },
+          { "title": "Illustrator Advanced Techniques", "duration": "4 days" },
+          { "title": "Creating Vector Artworks", "duration": "4 days" }
+        ]
+      },
+      {
+        "module": "Image Editing with Photoshop",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Understanding Photoshop Interface", "duration": "3 days" },
+          { "title": "Image Enhancement Techniques", "duration": "4 days" },
+          { "title": "Photoshop for Design Projects", "duration": "4 days" }
+        ]
+      },
+      {
+        "module": "Print Layout Design",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Typography and Layout Basics", "duration": "3 days" },
+          { "title": "Creating Professional Print Designs", "duration": "4 days" },
+          { "title": "Branding Elements and Consistency", "duration": "4 days" }
+        ]
+      },
+      {
+        "module": "Advanced Graphic Design Techniques",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Designing Effective Print Materials", "duration": "3 days" },
+          { "title": "Web Design Principles for Graphic Designers", "duration": "4 days" },
+          { "title": "Creating Impactful Designs", "duration": "4 days" }
+        ]
+      },
+      {
+        "module": "Professional Development in Design",
+        "duration": "1 week",
+        "lessons": [
+          { "title": "Client Communication and Presentation Skills", "duration": "3 days" },
+          { "title": "Portfolio Building and Self-Branding", "duration": "4 days" }
+        ]
+      }
+    ],
+    "instructor": {
+      "instructor_name": "Emily Smith",
+      "email": "emily@example.com"
+    },
+    "whatWillILearn": [
+      "Master visual communication basics.",
+      "Proficient in vector graphics editing.",
+      "Enhance images using Photoshop.",
+      "Design professional print layouts.",
+      "Gain typography expertise.",
+      "Create consistent branding elements.",
+      "Design effective print materials.",
+      "Understand web design principles."
+    ],
+    "reviews": [
+      {
+        "username": "CreativeDesigns123",
+        "rating": 4.8,
+        "comment": "Extremely informative course with practical exercises."
+      },
+      {
+        "username": "ArtEnthusiast",
+        "rating": 5,
+        "comment": "Loved the content, helped me improve my design skills significantly."
+      }
+    ]
+  },
+  {
+    "title": "Video Editing Essentials",
+    "image": "https://example.com/video_editing_banner.jpg",
+    "description": "This course provides a comprehensive understanding of video editing fundamentals, covering various techniques, software, and creative approaches.",
+    "level": "Beginner",
+    "rating": 4.6,
+    "category": "video_editing",
+    "total_lessons": 25,
+    "duration": "8 weeks",
+    "syllabus": [
+      {
+        "module": "Introduction to Video Editing",
+        "duration": "1 week",
+        "lessons": [
+          { "title": "Understanding Video Editing Basics", "duration": "2 days" },
+          { "title": "Introduction to Video Editing Software", "duration": "3 days" },
+          { "title": "Overview of Editing Techniques", "duration": "2 days" }
+        ]
+      },
+      {
+        "module": "Editing Software Proficiency",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Mastering Premiere Pro Basics", "duration": "4 days" },
+          { "title": "Advanced Editing Techniques in Premiere Pro", "duration": "5 days" },
+          { "title": "Exploring After Effects for Video Enhancements", "duration": "5 days" }
+        ]
+      },
+      {
+        "module": "Audio and Visual Effects",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Audio Editing and Mixing", "duration": "4 days" },
+          { "title": "Adding Visual Effects and Motion Graphics", "duration": "5 days" },
+          { "title": "Color Correction and Grading Techniques", "duration": "5 days" }
+        ]
+      },
+      {
+        "module": "Advanced Video Editing",
+        "duration": "2 weeks",
+        "lessons": [
+          { "title": "Advanced Transitions and Effects", "duration": "4 days" },
+          { "title": "Creative Editing Styles and Approaches", "duration": "5 days" },
+          { "title": "Multi-camera Editing and Syncing", "duration": "5 days" }
+        ]
+      },
+      {
+        "module": "Professional Workflow and Delivery",
+        "duration": "1 week",
+        "lessons": [
+          { "title": "Project Management and Organization", "duration": "3 days" },
+          { "title": "Exporting and Delivery Standards", "duration": "4 days" }
+        ]
+      }
+    ],
+    "instructor": {
+      "instructor_name": "Alex Johnson",
+      "email": "alex@example.com"
+    },
+    "whatWillILearn": [
+      "Master video editing basics.",
+      "Proficiency in popular editing software like Premiere Pro and After Effects.",
+      "Enhance videos with audio editing and mixing.",
+      "Add visual effects and motion graphics to videos.",
+      "Understand color correction and grading techniques.",
+      "Develop advanced editing skills and creative approaches.",
+      "Manage projects efficiently and adhere to delivery standards."
+    ],
+    "reviews": [
+      {
+        "username": "FilmEnthusiast23",
+        "rating": 4.7,
+        "comment": "Excellent course! Practical lessons really improved my editing skills."
+      },
+      {
+        "username": "VideoPro456",
+        "rating": 4.9,
+        "comment": "Instructor's insights were invaluable. Highly recommend!"
       }
     ]
   }

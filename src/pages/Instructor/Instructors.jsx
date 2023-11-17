@@ -10,14 +10,14 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../Contexts/AuthProvider";
 
-const Courses = () => {
+const Instructors = () => {
   const [data, setData] = useState([]);
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:3000/courses");
+        const response = await fetch("http://localhost:3000/instructors");
         const result = await response.json();
         setData(result);
       } catch (error) {
@@ -73,49 +73,27 @@ const Courses = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 justify-center items-center gap-5 py-10">
           {data.map((item, index) => (
             <div key={index} className="bg-white shadow-lg rounded-2xl">
-               <Link to={`/courses/${item._id}`}>
               <div className="image-container rounded-t-2xl">
-                <img className="rounded-t-2xl w-full" src={item.image} alt="" />
+                <img className="rounded-t-2xl w-full" src={item.photo} alt="" />
                 <div className="overlay"></div>
               </div>
 
-              <div className="flex justify-around items-center py-4">
-                <p className="flex items-center gap-1">
-                  <FaStar />
-                  <span className=" text-[#131515]">{item.rating}</span>
-                </p>
-                <p className="flex items-center gap-1">
-                  <FaBookReader /> {item.total_lessons}
-                </p>
-                <p className=" flex items-center gap-1">
-                  <FaEject />
-
-                  {item.reviews.length}
-                </p>
-              </div>
-              </Link>
               <hr />
               <div className="px-5">
-                <Link to={`/courses/${item._id}`}>
-                  <div className="flex flex-col gap-2">
-                    <h6 className="hover:text-[#FF5522] font-semibold mt-3">{item.title}</h6>
-                    <p className="text-sm">{item.description}</p>
-                  </div>
-                </Link>
-                <hr className="my-2" />
-                <div className="flex pb-3  justify-between items-center">
-                  <p className="flex  items-center gap-1">
-                    <FaClock className="text-[#FF5522]" size={12} />
-                    <span className=" text-[#131515]  font-bold ">
-                      {item.duration}
-                    </span>
-                  </p>
-                  <p className="text-[#FF5522] font-bold">{item.level}</p>
-                  <div onClick={() => handleBookmark(item._id)}>
-                    <p>
-                      <FaBookmark />
-                    </p>
-                  </div>
+                <div className="flex flex-col gap-2">
+                  <h6 className="hover:text-[#FF5522] text-xl font-semibold mt-3">
+                    {item.name}
+                  </h6>
+                  <p className="text-sm">{item.bio}</p>
+                </div>
+
+                <hr className="my-2 " />
+                <div className=" pb-3  items-center">
+                  <Link to={`/instructors/${item._id}`}>
+                    <button className="bg-[#FF5522] font-bold mt-2 py-3 text-white w-full">
+                      See Details
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -126,4 +104,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default Instructors;

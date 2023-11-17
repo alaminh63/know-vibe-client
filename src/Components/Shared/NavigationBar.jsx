@@ -10,7 +10,7 @@ const NavigationBar = () => {
   const nav = [
     { id: 1, name: "Home", url: "/" },
     { id: 2, name: "Courses", url: "/courses" },
-    { id: 3, name: "About", url: "/about" },
+    { id: 3, name: "Instructors", url: "/instructors" },
     { id: 4, name: "Contact", url: "/contact" },
     { id: 5, name: "Dashboard", url: "dashboard/student" },
   ];
