@@ -1,30 +1,31 @@
 import { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../../../../Contexts/AuthProvider";
-import BookedmarkedCoursesCard from "./BookedmarkedCoursesCard";
+import { AuthContext } from "../../Contexts/AuthProvider";
 
-const BookmarkedCourses = () => {
-  const [bookMarked, setBookMarkedCourse] = useState([]);
-  console.log(bookMarked);
+import MyClassCard from "./MyClassCard";
+
+const MyCourses = () => {
+  const [enrolledCourse, setEnrolledCourse] = useState([]);
+  console.log(enrolledCourse);
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
     // Function to fetch enrolledTournamentsId for a user
-    const fetchBookmarkedCourses = async () => {
+    const fetchEnrolledCourses = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/bookmarkedCourse/${user?.email}`
+          `http://localhost:3000/enrolledCourses/${user?.email}`
         );
         if (!response.ok) {
           throw new Error(`Failed to fetch data: ${response.status}`);
         }
         const data = await response.json();
-        setBookMarkedCourse(data.bookmarkedCourse);
+        setEnrolledCourse(data.enrolledCourses);
       } catch (error) {
         console.error("Error fetching bookMarkGames:", error);
       }
     };
 
-    fetchBookmarkedCourses();
+    fetchEnrolledCourses();
   }, [user?.email]);
 
   return (
@@ -38,9 +39,9 @@ const BookmarkedCourses = () => {
               </h3>
             </div>
           </div>
-          <div className="grid lg:grid-cols-5 grid-cols-2 gap-4">
-            {bookMarked?.map((items, i) => (
-              <BookedmarkedCoursesCard key={i} items={items} />
+          <div className="grid lg:grid-cols-2 grid-cols-2 gap-4">
+            {enrolledCourse?.map((items, i) => (
+              <MyClassCard key={i} items={items} />
             ))}
           </div>
         </section>
@@ -49,4 +50,4 @@ const BookmarkedCourses = () => {
   );
 };
 
-export default BookmarkedCourses;
+export default MyCourses;

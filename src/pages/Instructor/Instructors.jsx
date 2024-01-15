@@ -1,11 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import {
-  FaBookmark,
-  FaBookReader,
-  FaClock,
-  FaEject,
-  FaStar,
-} from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { AuthContext } from "../../Contexts/AuthProvider";
@@ -26,44 +20,6 @@ const Instructors = () => {
     };
     fetchData();
   }, []);
-
-  const handleBookmark = (_id) => {
-    const requestBody = {
-      _id: _id, // Send the _id from the singleTournament
-    };
-
-    fetch(`http://localhost:3000/bookmarkedCourse/${user.email}`, {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(requestBody), // Send the request body as JSON
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.modifiedCount) {
-          Swal.fire({
-            title: " Course Bookmark Successfull",
-            icon: "success",
-            color: "#FFFFFF",
-            background:
-              " linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.66078) 100%)",
-
-            confirmButtonColor: "cool",
-            confirmButtonText: "OK",
-          });
-        } else {
-          Swal.fire({
-            title: "Already Already Bookmarked",
-            icon: "error",
-            color: "#FFFFFF",
-            background:
-              " linear-gradient(90deg, #0c0e12 0%, rgba(31, 41, 53, 0.66078) 100%)",
-
-            confirmButtonColor: "cool",
-            confirmButtonText: "OK",
-          });
-        }
-      });
-  };
 
   return (
     <div>

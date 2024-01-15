@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../../Contexts/AuthProvider";
 
-
 const Student = () => {
   const { user } = useContext(AuthContext);
   // const [userInfo, SetUserInfo] = useState();
@@ -19,9 +18,7 @@ const Student = () => {
 
   return (
     <div className="text-black">
-      <div className="h2">
-      {user?.displayName}
-      </div>
+      <div className="h2">{user?.displayName}</div>
     </div>
   );
 };

@@ -10,6 +10,7 @@ const EnrolledCoursesCard = ({ items }) => {
   const { user } = useContext(AuthContext);
   const [course, setCourse] = useState({});
 
+  
   useEffect(() => {
     axios
       .get(`http://localhost:3000/courses/${items}`)
@@ -37,7 +38,6 @@ const EnrolledCoursesCard = ({ items }) => {
         style={{
           position: "relative",
           paddingTop: "70%",
-       
         }}
       >
         <img className="block w-full absolute inset-0" src={image} alt="" />

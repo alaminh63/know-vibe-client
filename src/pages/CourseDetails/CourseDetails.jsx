@@ -200,7 +200,7 @@ const CourseDetails = () => {
           <div className="grid grid-cols-2 gap-2">
             {reviews?.map((item, i) => (
               <div key={i + 1}>
-                <div className="container flex flex-col w-full mt-10 p-6 mx-auto divide-y rounded-md dark:divide-gray-700 dark:bg-gray-900 dark:text-gray-100">
+                <div className="container h-64 flex flex-col w-full mt-10 p-6 mx-auto divide-y rounded-md  bg-[#5A49F8]  dark:text-gray-100">
                   <div className="flex justify-between p-4">
                     <div className="flex items-center space-x-4">
                       <div>
@@ -208,9 +208,7 @@ const CourseDetails = () => {
                       </div>
                       <div>
                         <h4 className="font-bold">{item?.username}</h4>
-                        <span className="text-xs dark:text-gray-400">
-                          2 days ago
-                        </span>
+                        <span className="text-xs ">2 days ago</span>
                       </div>
                     </div>
                     <div className="flex items-center space-x-2 dark:text-yellow-500">
@@ -224,7 +222,7 @@ const CourseDetails = () => {
                       <span className="text-xl font-bold">{item?.rating}</span>
                     </div>
                   </div>
-                  <div className="p-4 space-y-2 text-sm dark:text-gray-400">
+                  <div className="p-4 space-y-2 text-sm ">
                     <p>{item?.comment}</p>
                   </div>
                 </div>
@@ -261,7 +259,6 @@ const CourseDetails = () => {
             >
               Bookmark Now
             </button>
-          
           </div>
         </div>
       </div>

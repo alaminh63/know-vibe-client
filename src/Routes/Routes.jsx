@@ -12,6 +12,9 @@ import EndrolledCourses from "../pages/Dashboard/Student/EndrolledCourses/Endrol
 import Student from "../pages/Dashboard/Student/Student";
 import Home from "../pages/Home/Home";
 import Instructors from "../pages/Instructor/Instructors";
+import InstructorDetails from "../pages/InstructorDetails/InstructorDetails";
+import MyClass from "../pages/MyClass/MyClass";
+import Youtube from "../pages/Youtube/Youtube";
 
 const router = createBrowserRouter([
   {
@@ -43,8 +46,20 @@ const router = createBrowserRouter([
         element: <Instructors />,
       },
       {
+        path: "/instructors/:id",
+        element: <InstructorDetails />,
+      },
+      {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/myClass",
+        element: <MyClass />,
+      },
+      {
+        path: "/youtube",
+        element: <Youtube />,
       },
     ],
   },

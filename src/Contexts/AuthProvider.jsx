@@ -34,7 +34,6 @@ const AuthProvider = ({ children }) => {
     return signInWithPopup(auth, provider);
   };
 
-
   // state change
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (correntUser) => {
@@ -85,7 +84,7 @@ const AuthProvider = ({ children }) => {
     updateUserProfile,
     logOut,
     updateName,
-    signInGoogle
+    signInGoogle,
   };
 
   return (

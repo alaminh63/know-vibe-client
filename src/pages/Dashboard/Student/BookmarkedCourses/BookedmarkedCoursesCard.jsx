@@ -37,7 +37,6 @@ const BookedmarkedCoursesCard = ({ items }) => {
         style={{
           position: "relative",
           paddingTop: "70%",
-       
         }}
       >
         <img className="block w-full absolute inset-0" src={image} alt="" />

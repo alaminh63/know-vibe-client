@@ -7,9 +7,12 @@ const Home = () => {
   return (
     <div>
       <HeroSection />
-      <WhyChooseSection/>
+      <div className="mt-5">
+
       <Courses/>
-      <Try />
+      </div>
+      <WhyChooseSection/>
+      {/* <Try /> */}
     </div>
   );
 };

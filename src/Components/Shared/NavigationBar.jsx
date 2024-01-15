@@ -11,8 +11,10 @@ const NavigationBar = () => {
     { id: 1, name: "Home", url: "/" },
     { id: 2, name: "Courses", url: "/courses" },
     { id: 3, name: "Instructors", url: "/instructors" },
+    { id: 3, name: "My Class", url: "/myClass" },
     { id: 4, name: "Contact", url: "/contact" },
     { id: 5, name: "Dashboard", url: "dashboard/student" },
+    { id: 5, name: "Youtube", url: "/youtube" },
   ];
 
   const [open, setOpen] = useState(false);
@@ -24,15 +26,20 @@ const NavigationBar = () => {
   const { user } = useContext(AuthContext);
 
   return (
-    <header className=" mx-auto flex items-center justify-between fixed top-0 left-0 right-0  py-2 z-10 bg-white shadow-lg">
+    <header className=" mx-auto flex items-center justify-between fixed top-0 left-0 right-0  py-2 z-10 bg-[#5A49F8] shadow-lg">
       {/* Logo */}
-      <div className="pl-5">
-        <img className="max-w-[50px]" src="/logo.png" alt="" />
-      </div>
+      <Link to='/'>
+        <div className="pl-5">
+          {/* <img className="max-w-[50px]" src="/logo.png" alt="" /> */}
+          <p className="text-white font-bold left-10 text-4xl font-custom absolute top-3">
+            KnowVibe
+          </p>
+        </div>
+      </Link>
 
       {/* Navbar */}
       <ul
-        className={`flex gap-5 ${
+        className={`flex gap-5 font-bold ${
           open
             ? "flex-col absolute top-16 justify-center items-center gap-10 bg-black text-white w-full h-[calc(100vh-64px)]"
             : "hidden md:flex"
@@ -45,8 +52,8 @@ const NavigationBar = () => {
             onClick={handleLinkClick}
             className={`${
               pathname === item.url
-                ? "text-[#FF5522] border-b-2 border-[#FF5522] font-semibold"
-                : " text-[#6C7171] hover:text-[#FF5522] transition-all"
+                ? "text-white font-bold border-b-2 border-white "
+                : " text-white font-semibold hover:text-white transition-all"
             }`}
           >
             <li>{item.name}</li>
@@ -74,7 +81,7 @@ const NavigationBar = () => {
           </div>
         ) : (
           <Link to={"/login"}>
-            <button className="hidden md:flex items-center justify-center gap-1 font-semibold text-[#6C7171]">
+            <button className="hidden md:flex items-center justify-center gap-1  py-3 font-semibold text-white">
               <FaUser />
               Login/Signup
             </button>

@@ -4,12 +4,16 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const WhyChooseSection = () => {
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto px-5 md:flex gap-10 py-20 justify-center items-center">
+      <div className="max-w-screen-xl mx-auto px-5 md:flex gap-10 py-20 justify-center ">
         <div className="md:w-1/2">
           <div className="md:relative">
-            <img className="lg:rotate-[25deg] w-96 h-[30rem]" src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D" alt="" />
             <img
-              className="-rotate-[25deg] w-96 h-[28rem] absolute top-56 border-[10px] border-white rounded-2xl hidden lg:block"
+              className="lg:rotate-[25deg] w-80 h-[28rem]"
+              src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+            <img
+              className="-rotate-[25deg] w-80 h-[28rem] absolute top-56 border-[10px] border-white rounded-2xl hidden lg:block"
               src="https://img.freepik.com/premium-photo/close-up-laptop-computer-circuit-board-generative-ai_900396-58475.jpg"
               alt=""
             />
@@ -19,57 +23,59 @@ const WhyChooseSection = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 pt-5 md:pt-0">
-          <div className="flex flex-col gap-10">
+        <div className="md:w-1/2 pt-5 md:pt-16">
+          <div className="flex flex-col gap-4">
             <p className="text-[#FF2200] font-bold">Let's Explore the World</p>
             <h3 className="text-4xl font-bold">
-              We Make Your Travel More Enjoyable
+              Get more close with your courses.
             </h3>
             <p className="text-lg text-[#6C7171]">
-              Embrace a worry-free travel experience with us as we strive to
-              make your journey more enjoyable. From seamless itineraries to
-              handpicked accommodations, we take care of every detail, leaving
-              you free to savor every moment and create unforgettable memories.
+              We provide a wide range of courses for the different sectors you
+              can choose from, which suits you perfectly Image Description
+              Detail description of each course Image Description Easy to
+              understand language Image Description Simple and easy to learn
+              courses.
             </p>
             <div className="flex gap-5">
               <div className="flex items-center gap-2">
                 <img src="./f-icon-1.png" alt="" />
                 <p className="text-lg font-bold">
-                  Award winning tour & travel arranger
+                  Award winning skills & program arranger
                 </p>
               </div>
               <div className="flex items-center gap-2">
                 <img src="./f-icon-2.png" alt="" />
                 <p className="text-lg font-bold">
-                  Most popular booking provider
+                  Most popular Technology service
                 </p>
               </div>
             </div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-3">
               <div className="flex items-center gap-5">
                 <FaLongArrowAltRight className="text-[#FF5522]" />
                 <p className="text-[#6C7171] text-lg">
-                  Personalized Itineraries: Tailored to your preferences and
-                  interests.
+                  Take The Next Step Toward Your Personal And Professional Goals
+                  With Quiklearn
                 </p>
               </div>
               <div className="flex items-center gap-5">
                 <FaLongArrowAltRight className="text-[#FF5522]" />
                 <p className="text-[#6C7171] text-lg">
-                  Hand picked premium Accommodations that guarantee comfort and
-                  relaxation.
+                  It is a longe established factey that reader will bee Follow
+                  readae con page.
                 </p>
               </div>
               <div className="flex items-center gap-5">
                 <FaLongArrowAltRight className="text-[#FF5522]" />
                 <p className="text-[#6C7171] text-lg">
-                  Dedicated 24/7 support team ready to assist you at any moment.
+                  Special Lessons And Courses World Largest Language
                 </p>
               </div>
             </div>
-            <button className="bg-[#FF5522] w-36 font-semibold py-2 rounded-md text-white mt-2">Explore More</button>
+            <button className="bg-[#FF5522] w-36 font-semibold py-2 rounded-md text-white mt-2">
+              Explore More
+            </button>
           </div>
-          
         </div>
       </div>
     </div>

@@ -10,7 +10,9 @@ const Root = () => {
       </div>
       <Outlet />
       <div className="mt-[4rem]">
-        <Footer/>
+        <div className="">
+          <Footer />
+        </div>
       </div>
     </div>
   );
