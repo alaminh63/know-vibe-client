@@ -10,7 +10,6 @@ import { AuthContext } from "../../../../Contexts/AuthProvider";
 const EnrolledCoursesCard = ({ items }) => {
   const { user } = useContext(AuthContext);
   const [course, setCourse] = useState({});
-
   useEffect(() => {
     axios
       .get(`http://localhost:3000/courses/${items}`)
