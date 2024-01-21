@@ -16,7 +16,6 @@ const Dashboard = () => {
   const { user } = useContext(AuthContext);
 
   
-  
   // console.log(user?.email);
   //   const [isAdmin] = useAdmin();
   const isAdmin = true;
