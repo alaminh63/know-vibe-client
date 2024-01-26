@@ -13,7 +13,6 @@ const EnrolledCoursesCard = ({ items }) => {
 
 
 
-
   useEffect(() => {
     axios
       .get(`http://localhost:3000/courses/${items}`)
