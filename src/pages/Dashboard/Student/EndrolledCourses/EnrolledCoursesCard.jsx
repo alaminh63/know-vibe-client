@@ -23,7 +23,6 @@ const EnrolledCoursesCard = ({ items }) => {
 
   const { _id, description, image, title } = course;
 
-
   const limitDescription = (description, limit) => {
     const words = description.split(" ");
     const limitedWords = words.slice(0, limit);
