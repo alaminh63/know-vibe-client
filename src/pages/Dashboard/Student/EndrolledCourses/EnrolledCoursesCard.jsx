@@ -24,6 +24,7 @@ const EnrolledCoursesCard = ({ items }) => {
   const { _id, description, image, title } = course;
 
 
+
   
 
   const limitDescription = (description, limit) => {
