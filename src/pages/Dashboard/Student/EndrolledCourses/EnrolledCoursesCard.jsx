@@ -21,6 +21,9 @@ const EnrolledCoursesCard = ({ items }) => {
       });
   }, [items]);
 
+//comments added
+
+
   const { _id, description, image, title } = course;
   const limitDescription = (description, limit) => {
     const words = description.split(" ");
