@@ -9,7 +9,6 @@ import { AuthContext } from "../../../../Contexts/AuthProvider";
 
 
 
-
 // eslint-disable-next-line react/prop-types
 const EnrolledCoursesCard = ({ items }) => {
   const { user } = useContext(AuthContext);
