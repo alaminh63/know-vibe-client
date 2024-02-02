@@ -9,7 +9,6 @@ const EnrolledCoursesCard = ({ items }) => {
   const { user } = useContext(AuthContext);
 
 
-
   const [course, setCourse] = useState({});
   useEffect(() => {
     axios
