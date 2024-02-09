@@ -2,6 +2,7 @@ import { FaEnvelope, FaLocationArrow, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
 
+
   
   return (
     <div>
